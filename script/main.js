@@ -41,7 +41,9 @@ if (!localStorage.getItem("User")){
     changeHelloWord.textContent = "hello my friend " + localStorage.getItem("User") ;
 };
 
-welcomeButton.onclick = () =>{
-    welcomeWord();
-};
+if (welcomeButton.id === "alertjs"){
+    welcomeButton.onclick = () =>{
+        welcomeWord();
+    };
+}
 
