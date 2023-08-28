@@ -36,6 +36,17 @@ button{
 h1,
 H1{
     text-align: center;
-    font-size: large;
     color: brown;
+}
+
+h2{
+    text-align: center;
+    font-size: large;
+}
+
+.learnArea{
+    margin: auto;
+    border: 1px ;
+    background-color: aliceblue;
+    
 }
