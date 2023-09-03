@@ -2,11 +2,28 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
-        <title>My test page</title>
+        <title>Mark</title>
         <link rel="stylesheet" href="style/indexShow.css">
         <script src="script/main.js" defer></script>
     </head>
     <body>
+        <header>
+            <span>在这放上一张logo图“(透明底).”</span>
+            <!-- 这里logo作为页面顶部，无需标题字符 -->
+        </header>
+
+        <!-- 导航栏：放在页面右侧，占页面横距30%左右 -->
+        <nav>
+            <ul>
+                <li><a href="">My Notes</a> |</li>
+                <li><a href="">My Plans</a> |</li>
+                <li><a href="">Look Back</a></li>
+            </ul>
+        </nav>
+        <div class="ShowPicture">
+            <!-- 用于放入第一屏的背景动图，但如何覆盖上面nav与header呢？ -->
+        </div>
+
         <H1><strong>choose you favorite picture</strong></H1>
         <p><a href="index.html#locationToBottom">click to Quick jump to the bottom</a> </p>
         <img src="image/photoOne.png" alt="premium description">
@@ -55,6 +72,17 @@
 
         <button id="alertjs">click here to input your name</button>
         <span id="locationToBottom"></span>
+
+        <div>
+            <!-- 用与第二屏的轮换屏幕展示 -->
+        </div>
+
+
+        <footer>
+            <address>
+                <!-- 写入修饰词语 -->
+            </address>
+        </footer>
     </body>
 
 </html>
